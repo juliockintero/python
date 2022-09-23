@@ -1,0 +1,10 @@
+Crear primero una carpeta donde se alojara el proyecto
+py -m virtualenv .  Comando para crear el entorno virtual
+py -m pip install django. Instalar django
+py -m pip install djangorestframework. Installar djangogramewok REST
+py -m pip install markdown. Instala markdown
+py -m pip install django-filter instala el paquete django filter permite a los usuarios filtrar un conjunto de consultas basado en los campos de un modelo
+.\Scripts\django-admin.exe startproject  app Creamos el proyecto llamado app con django.
+Py manage.py makemigrations. Creamos las migraciones
+Py manage.py createsuperuser. Crea un superusuario para iniciar sesión en admin.
+Py manage.py migrate ejecuta las y aplica las  migraciones
